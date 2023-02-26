@@ -2,17 +2,18 @@
 <html>
    <head>
       <title>Framing The Fjord</title>
+      <link rel = "stylesheet" type = "text/css" href = "styles.css" />
    </head>
    <body>
       <!-- Write your HTML in this file! -->
       <header>
-         <img src="images/swing.jpeg" alt="The Swing in Trandal, Norway" width="100%"/>
-         <figcaption>The Swing in Trandal, Norway</figcaption>
-         <h1>Framing The Fjord</h1>
+         <img id ="swing"src="images/swing.jpeg" alt="The Swing in Trandal, Norway" />
+         <figcaption id = "fig1">The Swing in Trandal, Norway</figcaption>
+         <h1 class="mainHeading">Framing The Fjord</h1>
          <time>March 2017</time>
       </header>
       <main>
-         <h2>A traveler is born</h2>
+         <h1>A traveler is born</h1>
          <article>All I ever wanted to do as a child was travel. My parents took us on the typical
             vacations as a child. Like every other middle-class midwestern family we went to 
             the beach, the Lake of the Ozarks and the Smokey Mountains. I enjoyed those trips 
@@ -20,16 +21,16 @@
             to be extravagent, expensive affairs, but that driving 14 hours can take to to what feels 
             like a different planet. 
          </article>
-         <img src="images/ulriken_sign.jpeg" alt="643 meters Mount Ulriken" width= "50%" id="ulrikenSign"/>
+         <img id ="photos" src="images/ulriken_sign.jpeg" alt="643 meters Mount Ulriken"  />
          <figcaption>643 meters Mount Ulriken</figcaption>
 
-         <h2>The spot</h2>
+         <h1>The spot</h1>
          <p>My husband found this hidden gem after we took a chance on cheap airfare to Norway on 
             a whim with no prior knowledge of what the country has to offer in regards to traveling 
             or photography. But when you find a flight to a new country for &euro;540 round trip for 
             two, you take it and ask questions later. As with any trip, we thoroughly check our 
             options and tried not limit oursevles to major cities or attractions. After a few days of 
-            searching and my husband stumbled on a heart-stopping photo.          
+            searching and my husband stumbled on a heart-stopping photo.    
          </p>
          <p>The Swing.
          </p>
@@ -40,7 +41,7 @@
             “Why aren't more people going there?”. After hours of research, the answer became clear, 
             there is a severe lack of information.
          </p>
-         <img src="images/window.jpeg" alt="View from our room at Christian Gaard" height="460px" width="640px"/>
+         <img id ="photos" src="images/window.jpeg" alt="View from our room at Christian Gaard" />
          <figcaption>View from our room at Christian Gaard </figcaption>
          <p>Finding out where was easy, but how was hard.
          </p>
@@ -59,12 +60,15 @@
             message back saying we were welcome to stay.
          </p>
          
-         <h2>The trip</h2>
+         <h1>The trip</h1>
+         
          <p>Coming from the United States flew into Bergen from New York and then begun the eight-hour 
             drive to Trandal. We were hoping to view a taste of the Nordic countryside while stopping 
             for a sleep along the way. Most of the trip was fairly simple to plan, but we were still 
             uncertain what to expect when arriving in Trandal. 
          </p>
+         <img id ="photos" src="images/mount_ulriken.jpeg" alt="Mount Ulriken" />
+         <figcaption>Mount Ulriken</figcaption>
          <p>Our drive from Bergen to Trandal was pretty much what you'd expect. We were surrounded 
             by towering mountains and beautiful fjords from the time we left the comfort of the main 
             municipality. Eight hours and two ferries later, we arrvied. We were warmly greeted on 
@@ -74,7 +78,9 @@
             the swing that leads straight into the fjord and was intimidating at first, but you become 
             more comfortable the longer you swing.
          </p>
-         <p>The eventual photo was as, if not more, impressive than we could have ever imagined. 
+         <img id ="photos" src="images/wide_trandal.jpeg" alt="View from below the swing" />
+         <figcaption>View from below the swing</figcaption>
+         <p class="funParagraph">The eventual photo was as, if not more, impressive than we could have ever imagined. 
             While other's might not consider a single photo worth such a long trek, the experience, 
             and view that accompanied the journey was incredible. If you're seeking a true Norwegian 
             experience that leaves you feeling like you walked straight into a travel brochure, I'd 
@@ -89,11 +95,14 @@
             <source src="images/swing_video.mp4" type="video/mp4">
             Your browser dows not support the video tag.
          </video>
-         <p>&copy; 2023 Mary Cross</p> 
-         <p>
-            All photos by <img src="images/ig.jpeg" height="20px" width="20px"/> 
+         <br>
+         <br>
+         <p id="testP">Special thanks to Gregory my husband for proof reading my first website.</p>
+         <br>
+         <br>&copy; 2023 Mary Cross &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            All photos by <img id = "instagram"src="images/ig.jpeg" /> 
             <a href="https://www.instagram.com/gregoryriot/">@gregoryriot</a>
-         </p>
+
       </footer>
    </body>
 </html>
