@@ -11,7 +11,7 @@
     text-align: center;
 }
 .mainHeading{
- 
+    color: red;
     font-family: sans-serif;
     font-size: xx-large;
 }
@@ -76,8 +76,9 @@ footer{
     text-align: center;
     font-family: sans-serif;
     font-size: 14px;
+    color: green;
 }
 #instagram {
     height: 15px;
-    width: 15px
+    width: 15px;
 }
